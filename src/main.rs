@@ -27,5 +27,3 @@ fn main() {
     let wdth: usize = 20;
     println!("{num:>wdth$}");
     }
-
-
