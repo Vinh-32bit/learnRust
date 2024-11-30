@@ -6,9 +6,7 @@ fn main(){
     // println!("{}", s1); // Lỗi: s1 không còn sở hữu giá trị
     println!("{}", s2);
 
-
-
-
+    
     //borrowing
 
     //immutable borrow
@@ -36,7 +34,6 @@ fn main(){
     }
     let mut value = 10;
     let value_ref = &mut value;
-    *value_ref += 5; //tham chiếu đến value
+    *value_ref += 5;
     println!("value: {}", value_ref);
-
 }
