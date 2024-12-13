@@ -7,4 +7,6 @@ fn main(){
     io::stdin().read_line(&mut input).expect("Cannot read!");
     
     println!("You was enter: {}",input);
-}
+    
+        
+}   

@@ -35,5 +35,7 @@ fn main(){
     let mut value = 10;
     let value_ref = &mut value;
     *value_ref += 5;
-    println!("value: {}", value_ref);
+    println!("value: {}", value);
+
+    
 }
